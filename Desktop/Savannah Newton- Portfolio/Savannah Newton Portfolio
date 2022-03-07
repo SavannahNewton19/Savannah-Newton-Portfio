@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <meta charset="UTF-8" />
+         <title>Savannah Newton - Portfolio</title>
+        
+       </head>
+
+       <body>
+ 
+        <!-- navigation -->
+        <header>
+          <h1>
+           <a href="/">Savannah Newton</a> 
+          </h1>
+          <nav>
+              <!-- Unordered list element -->
+      <ul>
+          <!-- List item element-->
+          <li>
+            <!-- Anchor element -->
+            <li>
+                <a href="#About-Me">About Me</a>
+              </li>
+            <a href="#My-Work">My Work</a>
+          </li>
+          <li>
+            <a href="#Contact-Me">Contact Me</a>
+          </li>
+        </ul>
+        
+          </nav>
+        </header>
+
+        <section id="About-Me"> 
+            <h2>About Me</h2>
+            <p>
+                I graduated from Virginia Commonwealth University in 2019 with a bachelor's degree in Fashion Merchandising. I am currently working in the technology sales industry while attending George Washington University's Coding Bootcamp.
+            </p>
+        </section>
+
+
+
+        <div class="my-work">
+
+        <section id="My-Work">
+
+        </section>
+     </div>
+
+     <div class="contact">
+         <section id="Contact-Me">
+            <div>
+                <h3>Savannah Newton</h3>
+                <p>
+                  Please feel free to reach out! 
+                  <br />
+                  All of my contact information can be found below
+                </p>
+                <address>
+                  2671 Avenir Pl <br />
+                  Vienna, VA<br />
+                  22180 <br />
+                  P: <a href="tel:703.727.1439" >703.727.1439</a><br />
+                  E: <a href="mailto:SavannahNewton19@gmail.com">SavannahNewton19@gmail.com</a>
+                </address>
+              </div>
+
+         </section>
+     </div>
