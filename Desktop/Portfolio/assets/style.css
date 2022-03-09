@@ -65,41 +65,88 @@ header nav ul {
     text-shadow: none;
   }
 
-  .my-img img {
-    flex: 1 12%;
-    margin-right: 20px;
-    max-width: 100%;
-    flex: 1 12%;
-    margin-right: 20px;
-  }
-  .About-Me {
-    background: rgb(241, 241, 171);
-  }
-  
-  
-  .step h3 {
-    color: var(--secondary-color);
-    font-size: 46px;
-    flex: 1 30%;
-  }
+  /*About Me Section*/
 
-  .my-info {
-    flex: 2 70%;
+  .sections {
+    width: 50%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-around;
+    flex: flex-row
+
+  }
+  
+  .my-bio {
+    margin: 20px;
+    background: rgb(248, 248, 177);
+    color: black;
+    flex: 1;
+  
+  }
+  
+  .my-bio img {
+    width: 100%;
+  }
+  
+  .my-info {
+    padding: 25px;
+    line-height: 1.3;
+  }
+  
+  .my-info h3 {
+    font-size: 28px;
+  }
+  
+  
+  .my-info p {
+    font-size: 17px;
+
+  }
+   
+/* About Me Section End */
+
+  .contact 
+  {
+    background: rgb(252, 252, 158);
+  }
+  
+  .contact h2 {
+    color: black;
   }
 
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-  .step-img img {
-    max-width: 100%;
+  }
+  
+
+  
+  .contact-info div {
+ 
+    color: black;
+  }
+  
+  .contact-info h3 {
+    color: black;
+    font-size: 32px;
   }
 
-  .my-info-text {
-    flex:12;
-    padding: 10px;
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+  
+  .contact-info p,
+  .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
   }
 
-  .my-info-text h3 {
-      padding: 10px;
+  .flex-row {
+    display: flex;
   }
